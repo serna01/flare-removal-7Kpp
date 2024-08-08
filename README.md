@@ -124,11 +124,11 @@ To demonstrate the effectiveness of the flare removal process, here are two imag
 <table>
 <tr>
 <td>
-    <img src="[lunalab1.jpg](https://github.com/serna01/flare-removal-7Kpp/blob/main/lunalab1.png)" alt="Image with Flare" style="width: 300px;"/>
+    <img src="lunalab1.png" alt="Image with Flare" style="width: 300px;"/>
     <p>Figure 1: Original image with flare.</p>
 </td>
 <td>
-    <img src="[lunalab17kpp.jpg](https://github.com/serna01/flare-removal-7Kpp/blob/main/lunalab17kpp.png)" alt="Image with Flare Removed" style="width: 300px;"/>
+    <img src="lunalab17kpp.png" alt="Image with Flare Removed" style="width: 300px;"/>
     <p>Figure 2: Image after flare removal using Flare7Kpp.</p>
 </td>
 </tr>
