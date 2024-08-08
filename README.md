@@ -59,7 +59,6 @@ This project is a modification and application of the [Flare7K](https://github.c
    ```bash
    mkdir input_data
 
-
 2. **Organize your test images**:
 
    Inside the `input_data` directory, create another directory specifically for your test images:
@@ -68,6 +67,11 @@ This project is a modification and application of the [Flare7K](https://github.c
    mkdir input_data/test_images
 
   Load the images you want to test in this folder
+
+3. **Download and place the pretrained model**:
+
+   Obtain the pretrained model from the provided source. Save the model file, typically named something like `net_g_last.pth`, into the `experiments` directory. 
+ .[URL_TO_PRETRAINED_MODEL](https://drive.google.com/file/d/17AX9BJ-GS0in9Ey7vw3BVPISm67Rpzho/view?usp=sharing). 
 
 
 ### Running the Model
@@ -83,7 +87,10 @@ This project is a modification and application of the [Flare7K](https://github.c
    ```bash
    python test_large.py --input input_data/test_images/ --output result --model_path experiments/net_g_last.pth --flare7kpp
   ```   
-
+--input input_data/test_images/ specifies the directory containing your test images.
+--output result defines the directory where the processed images will be saved.
+--model_path experiments/net_g_last.pth points to the pre-trained model file.
+--flare7kpp is a flag used to enable specific processing options in the script.
 
 ## Usage on Jetson Nano Orin
 
