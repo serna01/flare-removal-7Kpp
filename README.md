@@ -1,6 +1,6 @@
 # Flare Removal for Lunar Rovers
 
-This project is a modification and application of the [Flare7K](https://github.com/ykdai/Flare7K.git) repository, tailored for flare removal in images captured by lunar rovers. The steps below guide you through setting up the environment and running the model on your own image data.
+This project is an example of application of the [Flare7K](https://github.com/ykdai/Flare7K.git) repository, tailored for flare removal in images captured by lunar rovers. The steps below guide you through setting up the environment and running the model on your own image data.
 
 ## Table of Contents
 
